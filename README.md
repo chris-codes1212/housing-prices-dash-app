@@ -11,6 +11,8 @@ I did some data cleaning and feature engineering that can be seen (easier in the
 
 The Ames Iowa Housing Dataset was compiled by Dean De Cock in 2011 to serve as an alternative to the very well-known Boston Housing Dataset that many data scientists are familiar with. I collected the data from https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data and was split into test.csv and train.csv, I merged the data from these files (using R) into a single csv file (iowa_homes_full.csv) that is used to populate the dash app plots.
 
+I also included the data_description.csv file provided by kaggle to give the user an understanding of the features in the data set which can come in handy specifically for the 'Numeric Feature' dropdown in the dash app.
+
 ### Running the Plotly Dash Dpp
 
 In order to run this application, there are two options:
@@ -18,6 +20,8 @@ In order to run this application, there are two options:
 1) You can run the app through a jupyter notebook using the app.ipynb file, and you can see the dash application within the notebook or can visit http://localhost:8050 to open the application.
 
 2) You can run the app from the command line by running python app.py and then you can see the dash app by visiting http://localhost:8050
+
+* Also worth noting that I included a .pdf if the user wishes to simply view the pdf and not bother running the app. Obviously, there will be no interactivity going this route.
 
 ### Some Navigation Instructions
 
