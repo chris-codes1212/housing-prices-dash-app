@@ -13,7 +13,7 @@ The Ames Iowa Housing Dataset was compiled by Dean De Cock in 2011 to serve as a
 
 I also included the data_description.csv file provided by kaggle to give the user an understanding of the features in the data set which can come in handy specifically for the 'Numeric Feature' dropdown in the dash app.
 
-### Running the Plotly Dash Dpp
+### Running the Plotly Dash App
 
 In order to run this application, there are two options:
 
